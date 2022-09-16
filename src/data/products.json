@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Esparragos",
-        "description": "asdasd",
+        "description": "Esparragos al horno\r\ngratinados",
         "price": "600"
     },
     {
@@ -16,5 +16,17 @@
         "name": "Milanesa",
         "price": "500",
         "description": "La mejor milanesa"
+    },
+    {
+        "id": 4,
+        "name": "Lomo Alfajor",
+        "price": 1500,
+        "description": "lomo con provoleta y papas españolas."
+    },
+    {
+        "id": 5,
+        "name": "Lomo Alfajor",
+        "price": 1500,
+        "description": "lomo con provoleta y papas españolas."
     }
 ]
