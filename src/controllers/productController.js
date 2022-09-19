@@ -64,6 +64,21 @@ const controller = {
 
         res.redirect("/products/detail/" + platoAEditar.id);
 
+    },
+
+    delete: (req,res) => {
+        const data = findAll();
+        let platoABorrar = data.findIndex(plato => {
+            return plato.id == req.params.id
+        })
+        
+        data.splice(platoABorrar, 1);
+
+        writeFile(data);
+
+        res.redirect("/products/list");
+
+
     }
 
 
