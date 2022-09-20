@@ -39,7 +39,7 @@
               Actualizar el producto:
             </h1>
             <div class="form-container">
-                <form action="/products/edit/<%= plato.id %>?_method=PUT"  method="POST">
+                <form action="/products/edit/<%= plato.id %>?_method=PUT"  method="POST" enctype="multipart/form-data">
                   
                   <div class="field-wrap">
                     <label for="name">Nombre de plato:</label>
@@ -55,6 +55,12 @@
                     <label for="description">Descripcion:</label>
                     <textarea name="description" class="" id="description" ><%= plato.description %></textarea>
                   </div>
+                  
+                  <div class="field-wrap" >
+                    <label class="agregarImagen">agregar Imagen:</label>
+                       <input type="file" name="agregarImagen"/>
+                     
+                   </div> 
                   
                   <div class="field-wrap">
                     <button type="submit">

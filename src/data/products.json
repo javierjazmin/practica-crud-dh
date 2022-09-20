@@ -3,24 +3,28 @@
         "id": 1,
         "name": "Risotto de berenjenas ",
         "price": "75",
-        "description": "Risotto de berenjenas con queso de cabra"
+        "description": "Risotto de berenjenas con queso de cabra",
+        "image": "Risotto-berenjena-queso-cabra.jpg"
     },
     {
         "id": 2,
-        "name": "Risotto",
-        "description": "Risotto con berenjena y queso de cabra",
-        "price": 800
+        "name": "Carpaccio-de-salmon",
+        "description": "Salmon ahumado en finas rodajas acompañado de ensalada de Rabanitos",
+        "price": 800,
+        "image": "Carpaccio-de-salmon.jpg"
     },
     {
         "id": 3,
-        "name": "Milanesa",
-        "price": "500",
-        "description": "La mejor milanesa"
+        "name": "Esparragos gratinados",
+        "price": 500,
+        "description": "Esparragos gratinados acompañados de remolacha y pimientos multicolor",
+        "image": "esparragos.png"
     },
     {
         "id": 4,
-        "name": "Lomo Alfajor",
+        "name": "Mousse de Arroz",
         "price": 1500,
-        "description": "lomo con provoleta y papas españolas."
+        "description": "Arroz con leche muy cremoso con praline de frutos secos y arandanos.",
+        "image": "Mousse-de-arroz-con-leche.jpg"
     }
 ]

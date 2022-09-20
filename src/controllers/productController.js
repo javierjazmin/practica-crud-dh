@@ -35,7 +35,8 @@ const controller = {
             id: data.length + 1,
             name: req.body.name,
             price: Number(req.body.price),
-            description: req.body.description
+            description: req.body.description,
+            image: req.file.filename
         }
 
         data.push(newProduct)
@@ -59,6 +60,7 @@ const controller = {
         platoAEditar.name = req.body.name;
         platoAEditar.price = req.body.price;
         platoAEditar.description = req.body.description;
+
 
         writeFile(data);
 
